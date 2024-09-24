@@ -54,3 +54,6 @@ git checkout
 ```bash
 git log
 ```
+```bash
+git checkout HEAD~1 -- README.md
+```
