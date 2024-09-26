@@ -79,7 +79,7 @@ git branch -M main
 #### This command pushes your local main branch to the remote repository named origin.
 The -u flag sets the upstream tracking reference, meaning your local main branch will be linked to the remote main branch. This makes future pushes and pulls easier, as you won’t need to specify the branch name each time.
 ```bash
-git branch -M main
+git push -u origin main
 ```
 
   
