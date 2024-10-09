@@ -82,5 +82,14 @@ The -u flag sets the upstream tracking reference, meaning your local main branch
 git push -u origin main
 ```
 
-  
+Danger: If the sensitive file is still accessible in a previous commit
  
+SOLUTION:
+* Option 1: Remove previous commits with that file (e.g. use 'git reset' DANGEROUS - YOU COULD LOSE WORK)
+```bash
+git reset
+```
+* Option 2: 
+  1. Remove GitHub repo (Now safe!)
+  2. Remove sensitive from your local file
+  3. Remove .git folder from your local repo
